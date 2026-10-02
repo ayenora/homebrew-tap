@@ -1,6 +1,6 @@
 cask "screen-loupe" do
-  version "1.3.0"
-  sha256 "3782e33844c797ba362786dada078c842280b1c0166ef6ec6d65625fb5099e28"
+  version "1.4.0"
+  sha256 "e8a0f171675e208e4121f7d9bf0aa6e8128421c74d2ffcfb48ceae918c21507c"
 
   url "https://github.com/ayenora/screen-loupe/releases/download/v#{version}/ScreenLoupe-#{version}.dmg"
   name "Screen Loupe"
@@ -12,7 +12,7 @@ cask "screen-loupe" do
     strategy :github_latest
   end
 
-  depends_on macos: :sonoma
+  depends_on macos: :sequoia
 
   app "ScreenLoupe.app"
 
