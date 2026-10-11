@@ -1,6 +1,6 @@
 cask "screen-loupe" do
-  version "1.4.0"
-  sha256 "e8a0f171675e208e4121f7d9bf0aa6e8128421c74d2ffcfb48ceae918c21507c"
+  version "1.5.0"
+  sha256 "2b3e11b87cb4fa62d3ef3793d9626a199877e664d8a78ccf3b48e0576ea6a99a"
 
   url "https://github.com/ayenora/screen-loupe/releases/download/v#{version}/ScreenLoupe-#{version}.dmg"
   name "Screen Loupe"
